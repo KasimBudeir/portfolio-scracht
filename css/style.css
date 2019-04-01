@@ -1,0 +1,44 @@
+body{
+   
+}
+
+.container{
+    width: 1200px;
+    
+    margin: auto;
+}
+
+.header .navbar{
+    width: 100%;
+    height: 100%;
+    background-color:#252F31;
+    color: white;
+    overflow: hidden;
+}
+.header .navbar h2{
+
+    float: left;
+    text-transform: uppercase;
+}
+
+.header .navbar span{
+    color: #2DCA70;
+}
+
+.header .navbar ul {
+    overflow: hidden;/* ?????????????????????????*/
+    list-style: none;
+    padding: 0px;
+    /* margin-bottom: 0px; */
+    float: right;
+
+    
+}
+
+
+.header .navbar ul li {
+    float: left;
+    padding: 10px;
+    font-size: 1.25em;
+    text-transform: capitalize;
+}
